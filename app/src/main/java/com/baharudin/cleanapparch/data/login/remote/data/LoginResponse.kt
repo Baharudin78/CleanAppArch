@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName
 
 data class LoginResponse(
     @SerializedName("id")
-    var id : String? = null,
+    var id : Int? = null,
     @SerializedName("nama")
     var nama : String? = null,
     @SerializedName("email")

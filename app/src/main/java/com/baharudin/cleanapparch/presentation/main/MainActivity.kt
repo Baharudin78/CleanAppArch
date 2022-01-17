@@ -1,4 +1,4 @@
-package com.baharudin.cleanapparch
+package com.baharudin.cleanapparch.presentation.main
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
@@ -9,6 +9,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import com.baharudin.cleanapparch.R
 import com.baharudin.cleanapparch.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
